@@ -1,0 +1,64 @@
+body /*za ceo sajt*/ {
+    background-color:#f5f2e8;
+      margin: 0;
+      padding: 0;
+      }
+      
+      .nav ul {
+          list-style: none;
+          background-color:#ca592a;
+          text-align: center;
+          padding: 0;
+          margin: 0;}
+      .nav li {
+          position: center-left;
+          font-family: 'Oswald', sans-serif;
+          font-size: 1.2em;
+          line-height: 10px;
+          height: 10px;
+          border-bottom: 1px solid #888;
+          font-size-adjust:auto;
+          }
+      .nav a {
+          
+          text-decoration: none;
+          color: black;
+          display: block;
+          transition: .3s background-color;
+          }
+          .nav a:hover {
+              background-color: #ffbf80;
+              }
+      
+              @media screen and (min-width: 600px) 
+              {
+                  .nav li 
+                  {
+                      width: 120px;
+                      border-bottom: none;
+                      height: 50px;
+                      line-height: 50px;
+                      font-size: 1.4em;
+                      }
+                      .nav li {
+                          display: inline-block;
+                          margin-right: -4px;
+                          }
+                          
+                }
+  
+      
+  
+  .sidenav {
+   
+    position: fixed;  }
+  
+  .sidenav p,h6,h5 {
+    padding: 1px 15px 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  
+ 
